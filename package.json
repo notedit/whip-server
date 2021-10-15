@@ -1,0 +1,25 @@
+{
+  "name": "whip-server",
+  "version": "1.0.0",
+  "description": "WebRTC whip  server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notedit/whip-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notedit/whip-server/issues"
+  },
+  "homepage": "https://github.com/notedit/whip-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "medooze-media-server": "^0.112.3",
+    "semantic-sdp": "^3.21.0"
+  }
+}
